@@ -1,0 +1,60 @@
+<!Q1>
+<html>
+ <body>
+  <table border="1" align="center">
+   <tr>
+    <th>Table Heading</th>
+    <th>Table Heading</th>
+    <th>Table Heading</th>
+   </tr>
+   <tr>
+    <td>Table Data</td>
+    <td>Table Data</td>
+    <td>Table Data</td>
+  </tr> 
+  <tr>
+    <td>Table Data</td>
+    <td>Table Data<br>
+     <table border="1">
+       <tr>
+         <th>Table Heading</th>
+         <th>Table Heading</th>
+         <th>Table Heading</th>
+       </tr>
+       <tr>
+         <td>Table Data</td>
+         <td>Table Data</td>
+         <td>Table Data</td>
+       </tr> 
+       <tr>
+         <td>Table Data</td>
+         <td>Table Data</td>
+         <td>Table Data</td>
+       </tr> 
+       <tr>
+         <td>Table Data</td>
+         <td>Table Data</td>
+         <td>Table Data</td>
+       </tr> 
+     </table>
+    </td>
+    <td>Table Data</td>
+  </tr>
+   <tr>
+       <td>Table Data</td>
+       <td>Table Data</td>
+       <td>Table Data</td>
+  </tr> 
+  </table>
+ </body>
+</html>
+
+<!Q2>
+<html>
+ <body>
+   <svg width="500" height="500">
+    <rect x="100" y="200" height="100" width="200"
+    stroke="blue" stroke-width="5" fill="yellow"/> 
+   </svg>
+ </body>
+</html>
