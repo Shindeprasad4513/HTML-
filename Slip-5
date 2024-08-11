@@ -1,0 +1,59 @@
+<!Q1>
+<html>
+ <body>
+   <form>
+    <h2>Application Form</h2>
+    First Name:<input type="text">
+    Last Name:<input type="text"><br>
+    Date of Birth:<input type="date">
+    Age:<input type="Number"><br>
+    Gender:
+    <select>
+     <option>Male
+     <option>Female
+     <option>Others
+    </select>
+    Email Address:
+    <input type="email" placeholder="Enter Email Address"><br>
+    Positions Available:
+      <input type="radio" name="g1">Junior Developer
+      <input type="radio" name="g1">Mid-Level Developer
+      <input type="radio" name="g1">Senior Developer 
+      <br>
+    Programming Languages:
+    <input type="checkbox">Java
+    <input type="checkbox">Java Script
+    <input type="checkbox">Python<br>
+    Password:
+    <input type="password">
+    Confirm Password:
+    <input type="password">
+    <br>
+    <input type="submit">
+    <input type="reset">
+   </form>
+ </body>
+</html>
+
+
+<!Q2>
+<html>
+ <head>
+   <style>
+     body
+     {
+        background-color:red;
+     }
+     h1
+     {
+       font-size:20;
+       text-align:center;
+       color:blue;
+     }
+   </style>
+ </head>
+  <body>
+    <h1>This is Warning</h1>
+  <marquee>Read the Message</marquee>
+  </body>
+</html>
