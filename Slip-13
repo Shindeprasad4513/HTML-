@@ -1,0 +1,88 @@
+<!Q1>
+<html>
+<head>
+ <style>
+   #id1{
+     width:160;
+     justify-content:center;
+     display:flex;
+     background-color:white;
+     
+   }
+   #id2{
+     background-color:blue;
+     margin:50;
+     padding-right:10px;
+     align-item:center;
+     }
+ </style>
+</head>
+ <body id="id2">
+   <form>
+  <fieldset style="background-color:white;padding:30px;">
+   <h2>Registration</h2>
+     <table style="margin-left:30px;">
+      <tr>
+         <td style="color:grey;">Personal Details</td>
+        </tr>
+       <tr>
+         <td>Full Name</td>
+         <td>Date of Birth</td>
+         <td>Email</td>
+       </tr>
+       <tr>
+         <td><input type="text" placeholder="Enter your name" id="id1"></td>
+         <td><input type="date" placeholder="Enter Birth date" id="id1"></td>
+         <td><input type="email" placeholder="Enter your email" id="id1"></td>
+       </tr>
+       <tr>
+         <td>Mobile Number</td>
+         <td>Gender</td>
+         <td>Occupation</td>
+       </tr>
+       <tr>
+         <td><input type="number" placeholder="Enter mobile number" id="id1"></td>
+         <td><input type="text" placeholder="Enter your Gender " id="id1"></td>
+         <td><input type="email" placeholder="Enter Occupation" id="id1"></td>
+       </tr>
+        <tr>
+         <td style="color:grey;">Identity Details</td>
+        </tr>
+       <tr>
+         <td>Id type</td>
+         <td>Id Number</td>
+         <td>Issue Authority</td>
+       </tr>
+       <tr>
+         <td><input type="text" placeholder="Enter ID type" id="id1"></td>
+         <td><input type="number" placeholder="Enter ID Number" id="id1"></td>
+         <td><input type="text" placeholder="Enter Issue departmemt" id="id1"></td>
+       </tr>
+       <tr>
+         <td>Issue date</td>
+         <td>Issue state</td>
+         <td>Expiry date</td>
+       </tr>
+       <tr>
+         <td><input type="date" placeholder="Enter issue date" id="id1"></td>
+         <td><input type="text" placeholder="Enter issue state" id="id1"></td>
+         <td><input type="date" placeholder="Enter expiry date" id="id1"></td>
+       </tr>
+       <tr>
+        <td><input type="submit" value="Next  ->" style="background-color:blue;color:white;width:150;"></td>
+       </tr>
+     </table>
+     </fieldset>
+   </form>
+ </body>
+</html>
+
+
+<!Q2>
+<html>
+  <body>
+   <svg height="400" width="400">
+    <line x1=50 y1=40 x2=100 y2=200 stroke="red" stroke-width="5"/>
+   </svg> 
+  </body>
+</html>
