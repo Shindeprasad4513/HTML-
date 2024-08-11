@@ -1,0 +1,46 @@
+<!Q1>
+<html>
+  <body> 
+    <fieldset>
+   <legend>Personal Details</legend>
+    <form>
+    Salutation<br>
+    <select>
+      <option>--None--</option>
+      <option>Shinde Sir</option>
+      <option>Badadhe sit</option>
+    </select><br>
+    First Name:<input type="text"><br>
+     Last Name:<input type="text"><br>
+     Gender:
+     <input type="radio" name="r1">Male
+     <input type="radio" name="r1">Female<br>
+     Email:<input type="email"><br>
+     Date of Birth:<input type="date"><br>
+     Address:<br><textarea></textarea><br><br>
+     <input type="submit">
+    </form>
+    </fieldse>
+  </body>
+</html>
+
+
+<!Q2>
+ <html>
+<body>
+<canvas id="linear" height="300" width="300"
+ style="border:2px solid cyan;">
+ </canvas>
+ <script>
+   var c=document.getElementById("linear");
+   var ctx=c.getContext("2d");
+   var grad=ctx.createLinearGradient(10,20,200,100);
+   grad.addColorStop(0,"red"); 
+   grad.addColorStop(0.5,"yellow");
+   grad.addColorStop(1,"blue");
+   ctx.fillStyle=grad;
+   ctx.fillRect(50,40,200,200);
+  
+ </script>
+</body>
+</html>
