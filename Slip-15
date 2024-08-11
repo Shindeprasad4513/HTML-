@@ -1,0 +1,80 @@
+<!Q1>
+<html>
+ <body>
+   <h3>My Favourite Songs with my favourite Bands</h3>
+   <p>Below are the list of my favourite songs in order my favourite bands,in no particular order.
+   </p>
+    <ul>
+    <li>Metallica
+     <ol>
+      <li>Master of puppets</li>
+      <li>One</li>
+      <li>for whom the bell tolls</li>
+      <li>Creeping Death</li>
+     </ol>
+    </li>
+    <li>Led Zeppelin
+     <ol>
+      <li>Stairway To Heaven</li>
+      <li>Communication Breakdown</li>
+     </ol>
+    
+    </li>
+    <li>Iron Maiden
+     <ol>
+      <li>Flight of Icarus</li>
+      <li>Run to the Hills</li>
+     </ol>
+    </li>
+    <li>Pantera
+     <ol>
+      <li>Cemetary Gates</li>
+     </ol>
+    </li>
+    <li>Slayer
+       <ol>
+      <li>War Ensemble</li>
+     </ol>
+    </li>
+    </ul>
+ </body>
+</html>
+
+
+<!Q2>
+<html>
+<head>
+  <style>
+    h1 
+    {
+      color: green;
+    }
+    p 
+    {
+      color: blue;
+    }
+    .center 
+    {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .btn 
+    {
+      background-color: red;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Green Heading</h1>
+  <p>Blue Paragraph</p>
+  <div class="center">
+    <button class="btn">Centered Red Button</button>
+  </div>
+</body>
+</html>
