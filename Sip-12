@@ -1,0 +1,52 @@
+<!Q1>
+<html>
+ <body>
+   <table border="1" align="center">
+     <tr>
+       <td colspan="2">Person</td>
+       <td colspan="2">Department</td>
+     </tr>
+     <tr>
+       <td style="background-color:cyan;">Name</td>
+       <td rowspan="4" style="background-color:cyan;">Photo</td>
+       <td style="background-color:yellow;">Name</td>
+       <td rowspan="2" style="background-color:yellow;">Image</td>
+      </tr> 
+     <tr>
+        <td style="background-color:cyan;">Surname</yd>
+        <td style="background-color:yellow;">Structure</td>
+     </tr>
+     <tr>
+       <td style="background-color:cyan;">State</td>
+       <td style="background-color:yellow;">Floor</td>
+       <td rowspan="2" style="background-color:yellow;">QR Code</td>
+     </tr>
+     <tr>
+       <td style="background-color:cyan;">City</td>
+       <td style="background-color:yellow;">Room</td>
+     </tr>
+     <tr>
+       <td colspan="2">Email</td>
+       <td colspan="2">Tel.Number</td>
+     </tr>
+   </table>
+ </body>
+</html>
+
+
+
+<!Q2>
+<html>
+  <body>
+    <canvas id="text" width="400" height="400"
+    style="border:2px solid blue">
+    </canvas>
+    <script>
+      var c=document.getElementById("text");
+      var ctx=c.getContext("2d");
+      ctx.font="20px Arial"
+      ctx.fillStyle="red";
+      ctx.fillText("Prasad Shinde",150,100);
+    </script>
+  </body>
+</html>
