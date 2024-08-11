@@ -1,0 +1,67 @@
+<!Q1>
+<html>
+  <body>
+    <table border="1" align="center">
+     <tr>
+       <td>Country</td>
+       <td colspan="2">Populations(in Crores)</td>
+     </tr>    
+     <tr>
+       <td rowspan="3">India</td>
+       <td>1998</td>
+       <td>85</td>
+     </tr>
+     <tr>
+       <td>1999</td>
+       <td>90</td>
+     </tr>
+     <tr>
+       <td>2000</td>
+       <td>100</td>
+     </tr>
+     <tr>
+       <td rowspan="3">USA</td>
+       <td>1998</td>
+       <td>30</td>
+     </tr>
+     <tr>
+       <td>1999</td>
+       <td>35</td>
+     </tr>
+     <tr>
+       <td>2000</td>
+       <td>40</td>
+     </tr>
+     <tr>
+       <td rowspan="3">UK</td>
+       <td>1998</td>
+       <td>25</td>
+     </tr>
+     <tr>
+       <td>1999</td>
+       <td>30</td>
+     </tr>
+     <tr>
+       <td>2000</td>
+       <td>35</td>
+     </tr>
+    </table> 
+  </body>
+</html>
+
+<!Q2>
+<html>
+  <body>
+    <canvas id="circular" width="500" height="500" style="border:2px solid blue;">
+    </canvas>
+    <script>
+      var c=document.getElementById("circular");
+      var ctx=c.getContext("2d");
+      var grad=ctx.CreateRadialGradient(100,100,50,100,100,20);
+      grad.addColorStop(0,"red");
+      grad.addClorStop(1,"yellow");
+      ctx.fillStyle=grad;
+      ctx.fillRect(50,40,200,200);
+    </script>
+  </body>
+</html>
